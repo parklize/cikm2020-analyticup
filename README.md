@@ -25,8 +25,8 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 ### Models used for the global ensemble
 | No.        | RERF Details  | Weight |
 | ------------- |---|:-------------:|
-| 1     | LinearRegression(fit_intercept=False)<br>RandomForestRegressor(n_estimators=500, random_state=7)| 1 |
-| 2     | MLPRegressor(batch_size=1024, hidden_layer_sizes=(64,32,16,8,8), random_state=7)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=7)| 1 |
+| 1     | LinearRegression(fit_intercept=False)<br>RandomForestRegressor(n_estimators=500, max_depth=20, random_state=7)| 1 |
+| 2     | MLPRegressor(batch_size=1024, hidden_layer_sizes=(64,32,16,8,8), random_state=7)<br>RandomForestRegressor(n_estimators=1000, max_depth=18, random_state=7)| 1 |
 | 3     | MLPRegressor(batch_size=2048, hidden_layer_sizes=(128,64,32,16,8,8), random_state=77)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=77)| 1 |
 | 4     | MLPRegressor(batch_size=2048, hidden_layer_sizes=(128,64,32,16,8), random_state=18)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=18)| 1 |
 | 5     | MLPRegressor(batch_size=2048, hidden_layer_sizes=(64,16,8), random_state=19)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=19)| 1 |
@@ -36,7 +36,9 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 | 9     | MLPRegressor(batch_size=4096, hidden_layer_sizes=(128,64,32,8,8), random_state=22)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=22)| 1 |
 | 10    | MLPRegressor(batch_size=4096, hidden_layer_sizes=(128,64,32,16,8), random_state=27)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=27)| 1 |
 | 11    | MLPRegressor(batch_size=4096, hidden_layer_sizes=(128,64,32,32,16), random_state=211)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=28)| 1 |
-
+| 12    | xDeepFM()<br>RandomForestRegressor(n_estimators=500, max_depth=16, random_state=28)| 1 |
+| 13    | DeepFM()<br>RandomForestRegressor(n_estimators=500, max_depth=16, random_state=29)| 2 |
+| 14    | DeepFM()<br>RandomForestRegressor(n_estimators=500, max_depth=16, random_state=28)| 1 |
 <br/>
 
 ### Citation
