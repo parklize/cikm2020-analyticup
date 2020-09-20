@@ -1,6 +1,6 @@
 ## Team PH at the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup
 
-This repository contains the code and other resources for our proposed solution for the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup. The proposed solution ranked 4th on the final testing leaderboard among 20 teams (51 teams in the validation phase). The pre-print of our report is available [here](). 
+This repository contains the code and other resources for our proposed solution for the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup. The proposed solution ranked 4th on the final testing leaderboard among 20 teams (51 teams in the validation phase). The pre-print of our report is available [here](http://parklize.github.io/publications/CIKM2020_Analuticup.pdf). 
 
 <br/>
 
@@ -42,4 +42,4 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 <br/>
 
 ### Citation
-*Regression-enhanced Random Forests with Personalized Patching for COVID-19 Retweet Prediction*, Guangyuan Piao and Weipeng Huang, CIKM Analyticup Workshop at CIKM'20, Galway, Ireland, 2020. \[[PDF]()\]
+*Regression-enhanced Random Forests with Personalized Patching for COVID-19 Retweet Prediction*, Guangyuan Piao and Weipeng Huang, CIKM Analyticup Workshop at CIKM'20, Galway, Ireland, 2020. \[[PDF](http://parklize.github.io/publications/CIKM2020_Analuticup.pdf)\]
