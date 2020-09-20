@@ -81,11 +81,7 @@ def fmrf_predict(val):
     ##########################
     # RF
     # load rf
-    # filename = './model/randomforest_regressor_500e_deepfmallfeatures_rs28.sav'
     filename = './model/randomforest_regressor_500e_xdeepfm_rs211_28.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs211_29.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs211_30.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs30.sav'
     reg = pickle.load(open(filename, 'rb'))
     rf_val_predict = reg.predict(val[features].values)
 
@@ -115,11 +111,7 @@ def fmrf_predict(val):
     feature_names = get_feature_names(linear_feature_columns + dnn_feature_columns)
 
     model = xDeepFM(linear_feature_columns, dnn_feature_columns, task='regression')
-    # model.load_weights('./model/DeepFM_w.h5')
     model.load_weights('./model/xDeepFM_w.h5')
-    # model.load_weights('./model/xDeepFM_w_seed29.h5')
-    # model.load_weights('./model/DeepFM_w_seed30.h5')
-    # model.load_weights('./model/xDeepFM_w_seed30.h5')
 
     test_model_input = {name: val[name].values for name in feature_names}
 
@@ -133,11 +125,7 @@ def fmrf_predict(val):
     ##########################
     # RF
     # load rf
-    # filename = './model/randomforest_regressor_500e_deepfmallfeatures_rs28.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs211_28.sav'
     filename = './model/randomforest_regressor_500e_xdeepfm_rs211_29.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs211_30.sav'
-    # filename = './model/randomforest_regressor_500e_xdeepfm_rs30.sav'
     reg = pickle.load(open(filename, 'rb'))
     rf_val_predict = reg.predict(val[features].values)
 
@@ -167,11 +155,7 @@ def fmrf_predict(val):
     feature_names = get_feature_names(linear_feature_columns + dnn_feature_columns)
 
     model = DeepFM(linear_feature_columns, dnn_feature_columns, task='regression')
-    # model.load_weights('./model/DeepFM_w.h5')
-    # model.load_weights('./model/xDeepFM_w.h5')
     model.load_weights('./model/xDeepFM_w_seed29.h5')
-    # model.load_weights('./model/DeepFM_w_seed30.h5')
-    # model.load_weights('./model/xDeepFM_w_seed30.h5')
 
     test_model_input = {name: val[name].values for name in feature_names}
 

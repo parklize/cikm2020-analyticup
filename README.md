@@ -10,6 +10,8 @@ This repository contains the code and other resources for our proposed solution 
     - *tmp* directory contains extracted data for training and prediction
     - *data* directory contains raw data provided by the challenge origranizers
 - Check and install relevant packages based on requrirements.txt 
+- All experiments are run with a commodity
+laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space)
 
 <br/>
 
