@@ -22,5 +22,14 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 
 <br/>
 
+### Models
+| No.        | RERF Details  |
+| ------------- |:-------------:|
+| 1     | LinearRegression(fit_intercept=False)<br>RandomForestRegressor(n_estimators=500, random_state=7)|
+| 2     | MLPRegressor(batch_size=1024, hidden_layer_sizes=(64,32,16,8,8), random_state=7)<br>RandomForestRegressor(n_estimators=500, random_state=7)|
+
+
+<br/>
+
 ### Citation
 *Regression-enhanced Random Forests with Personalized Patching for COVID-19 Retweet Prediction*, Guangyuan Piao and Weipeng Huang, CIKM Analyticup Workshop at CIKM'20, Galway, Ireland, 2020. \[[PDF]()\]
