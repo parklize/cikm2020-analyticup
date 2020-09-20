@@ -24,7 +24,7 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 
 ### Models used for the global ensemble
 | No.        | RERF Details  | Weight |
-| ------------- |:-------------:|
+| ------------- |:-------------:|:-------------:|
 | 1     | LinearRegression(fit_intercept=False)<br>RandomForestRegressor(n_estimators=500, random_state=7)| 1 |
 | 2     | MLPRegressor(batch_size=1024, hidden_layer_sizes=(64,32,16,8,8), random_state=7)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=7)| 1 |
 | 3     | MLPRegressor(batch_size=2048, hidden_layer_sizes=(128,64,32,16,8,8), random_state=77)<br>RandomForestRegressor(n_estimators=500, max_depth=18, random_state=77)| 1 |
