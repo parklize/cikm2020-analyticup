@@ -16,9 +16,9 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 <br/>
 
 ## Scripts
-- **test.py** loads the test data and run different RERFs to get the prediction results in the *output* directory and ensembles those results. Afterwards, it applied personalized patching to update the final prediction results for users having a sufficient number of tweets in the training set.   
-- **train.py** contains code for training different RERFs, which are used in the test.py.
-- **utils.py** contains necessary utility functions for train.py and test.py.
+- `test.py` loads the test data and run different RERFs to get the prediction results in the *output* directory and ensembles those results. Afterwards, it applied personalized patching to update the final prediction results for users having a sufficient number of tweets in the training set.   
+- `train.py` contains code for training different RERFs, which are used in the test.py.
+- `utils.py` contains necessary utility functions for train.py and test.py.
 
 <br/>
 
