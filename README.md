@@ -1,6 +1,6 @@
 # Team PH at the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup
 
-This repository contains the code and other resources for our proposed solution for the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup. The proposed solution ranked 4th on the final testing leaderboard among 20 teams (51 teams in the validation phase). The pre-print of our report is available [here](http://parklize.github.io/publications/CIKM2020_Analuticup.pdf). 
+This repository contains the code and other resources for our proposed solution for the COVID-19 Retweet Prediction Challenge at CIKM2020 Analyticup. The proposed solution ranked 4th on the final testing leaderboard among 20 teams (51 teams in the validation phase). The pre-print of our report is available [here](http://parklize.github.io/publications/CIKM2020_Analyticup.pdf). 
 
 <br/>
 
