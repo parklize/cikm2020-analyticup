@@ -42,4 +42,4 @@ laptop (Intel CoreI5 processor at 2.6 GHz, 8GB of RAM, and with 200GB swap space
 <br/>
 
 ## Citation
-Guangyuan Piao and Weipeng Huang, Regression-enhanced Random Forests with Personalized Patching for COVID-19 Retweet Prediction, *CIKM Analyticup Workshop at CIKM'20*, Galway, Ireland, 2020. \[[PDF](http://parklize.github.io/publications/CIKM2020_Analuticup.pdf)\] [[bibtex]](https://parklize.github.io/bib/CIKM2020_Analyticup.bib)
+Guangyuan Piao and Weipeng Huang, Regression-enhanced Random Forests with Personalized Patching for COVID-19 Retweet Prediction, *CIKM Analyticup Workshop at CIKM'20*, Galway, Ireland, 2020. \[[PDF](http://parklize.github.io/publications/CIKM2020_Analyticup.pdf)\] [[bibtex]](https://parklize.github.io/bib/CIKM2020Analyticup.bib)
